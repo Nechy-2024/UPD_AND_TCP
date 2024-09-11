@@ -1,0 +1,19 @@
+**TCP (Transmission Protocl Control)**
+
+**TCP/IP** stands for Transmission Control Protocol/Internet Protocol. TCP/IP is a set of standardized rules that allow computers to communicate on a network such as the internet.
+
+Computers do this through protocols. A protocol is an agreed-upon set of rules. In human terms, we use social protocols to know how to behave and communicate with other people. Technologies have their own ways of setting communication rules, such as the telegraph using Morse code or a CB radio using codes like “10-4.”
+
+**UPD** **(User Datagram Protocol)**
+
+**UDP** stands for User Datagram Protocol, a more straightforward, connectionless Internet protocol that doesn't need error-checking and recovery services. UDP has no overhead for opening, maintaining, or terminating a connection. UDP continuously sends data to the recipient, regardless of whether they get it or not.
+
+Although UDP isn’t the best choice for sending an e-mail, looking at a webpage, or downloading files, it’s great for real-time communications such as broadcast or multitasked network transmissions.
+
+The main difference between **TCP** (transmission control protocol) and **UDP** (user datagram protocol) are as follows;
+
+1. **TCP** is a connection-based protocol and **UDP** is connectionless.
+2. While **TCP** is more reliable, it transfers data more slowly. **UDP** is less reliable but works more quickly. This makes each protocol suited to different types of data transfers.
+3. **TCP** creates a secure communication line to ensure the reliable transmission of all data. Once a message is sent, the receipt is verified to make sure all the data was transferred. **UDP** does not establish a connection when sending data. It sends data without confirming receipt or checking for errors. That means some or all of the data may be lost during transmission.
+4. **TCP** does not support broadcasting while **UPD** supports it.
+5. **TCP** carries out thorough error-checking and guarantees data arrives in its intended state while **UPD** does minimal error-checking covers the basics but may not prevent all errors
